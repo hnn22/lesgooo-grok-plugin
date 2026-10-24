@@ -5,7 +5,7 @@ description: Use lesgooo.fun to create or coordinate a shared group plan, read a
 
 # Group planning with lesgooo
 
-lesgooo.fun is a free group planner with no accounts. One shared plan link lets friends participate in a browser without this plugin. Its MCP server exposes 24 tools, including three app-only UI transport tools, for dates, places, RSVPs, checklists, and shared costs.
+lesgooo.fun is a free group planner with no accounts. One shared plan link lets friends participate in a browser without this plugin. Its MCP server provides tools for dates, places, RSVPs, checklists, and shared costs. Discovery is host-dependent: native forms can be omitted on unsupported hosts. Three widget transport tools are app-only and must never be called directly from chat.
 
 ## Choose the plan
 

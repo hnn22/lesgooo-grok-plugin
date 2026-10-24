@@ -1,0 +1,19 @@
+{
+  "name": "lesgooo",
+  "owner": {
+    "name": "Jan Henneberg"
+  },
+  "metadata": {
+    "description": "lesgooo group planning for Grok Bot and compatible Cursor hosts"
+  },
+  "plugins": [
+    {
+      "name": "lesgooo",
+      "source": ".",
+      "description": "Shared group plans: dates, hours, places, Event, checklist and costs.",
+      "version": "0.1.0",
+      "logo": "assets/logo.png",
+      "category": "Productivity"
+    }
+  ]
+}

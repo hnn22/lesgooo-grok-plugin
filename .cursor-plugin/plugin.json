@@ -1,0 +1,23 @@
+{
+  "name": "lesgooo",
+  "version": "0.1.0",
+  "description": "Plan with friends through one shared link: free days and hours, places, an Event, checklist and shared costs. No lesgooo signup.",
+  "author": {
+    "name": "Jan Henneberg",
+    "url": "https://lesgooo.fun/"
+  },
+  "homepage": "https://lesgooo.fun/agents/grok-bot-plugin/",
+  "repository": "https://github.com/hnn22/lesgooo-grok-plugin",
+  "license": "MIT",
+  "keywords": [
+    "group-planning",
+    "availability",
+    "events",
+    "checklist",
+    "shared-expenses",
+    "mcp"
+  ],
+  "logo": "assets/logo.png",
+  "skills": "skills/",
+  "mcpServers": "mcp.json"
+}
