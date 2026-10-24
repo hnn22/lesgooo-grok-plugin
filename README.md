@@ -2,7 +2,7 @@
 
 Plan with friends through one shared link. Friends participate at [lesgooo.fun](https://lesgooo.fun/) without a lesgooo account or an AI subscription.
 
-This Agent Plugin packages a group-planning **skill and remote MCP server**. It uses the same saved plans as the web, ChatGPT/Codex and other compatible MCP clients. It is independently developed by Jan Henneberg; it is not made by or endorsed by xAI, Cursor, OpenAI or Anthropic.
+This Agent Plugin packages a group-planning **skill and remote MCP server**. It uses the same saved plans as the web, ChatGPT/Codex and other compatible MCP clients. It is independently developed by lesgooo.fun; it is not made by or endorsed by xAI, Cursor, OpenAI or Anthropic.
 
 ## What it does
 
