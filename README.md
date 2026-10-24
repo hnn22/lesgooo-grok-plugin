@@ -15,7 +15,7 @@ This Agent Plugin packages a group-planning **skill and remote MCP server**. It 
 
 ## Install
 
-Marketplace publication is pending; this repository is the plugin source, not evidence of approval. In a compatible host that supports local Agent Plugin imports, use Customize → Plugins → Add → From Local Repo and select this repository. The included `.cursor-plugin/marketplace.json` exposes its root Agent Plugin. The portable root `plugin.json` is accompanied by an explicit `.cursor-plugin/plugin.json` for Cursor-compatible marketplace imports; both point to the same skill and MCP configuration. No API key, OAuth login or lesgooo signup is required. The host needs network access to `https://lesgooo.fun/mcp` and may have its own subscription/access requirements.
+Marketplace submission is being prepared; this repository is the plugin source, not evidence of approval. In a compatible host that supports local Agent Plugin imports, use Customize → Plugins → Add → From Local Repo and select this repository. The included `.cursor-plugin/marketplace.json` exposes its root Agent Plugin. The portable root `plugin.json` is accompanied by an explicit `.cursor-plugin/plugin.json` for Cursor-compatible marketplace imports; both point to the same skill and MCP configuration. No API key, OAuth login or lesgooo signup is required. The host needs network access to `https://lesgooo.fun/mcp` and may have its own subscription/access requirements.
 
 When listed in Grok Bot, open **Connect apps**, find **lesgooo**, add it, and attach it to the conversation using `@`. Do not assume it is listed until the actual marketplace entry is available. Follow the host's approval prompts for writes.
 

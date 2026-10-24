@@ -127,3 +127,8 @@ Examples (use the user's language, never fabricate these facts):
 - A browser/host participant selection does not establish chat identity unless the host explicitly delivered current selection context for that plan. When unavailable, ask who the user is before a person-specific write. Never inspect cookies, browser storage, files or another chat to recover participant credentials.
 - Read with `get_plan` after saving and verify the intended participant, dates/hours, rows or balances. Preserve the saved plan and credentials through follow-up requests. Tool error or ambiguous timeout is not a success; do not replay a non-idempotent creation or payment automatically.
 - Do not set up routines, messages, invitations, bookings or transactions just because a plan was created. This plugin has no calendar-provider sync, mailbox access or payment execution.
+
+## Time-zone read-back in limited hosts
+
+- For summaries of exact availability, use `get_plan` with the explicitly known IANA `time_zone`; use `all_day_dates` for whole-day answers. Event wall-clock details and absolute availability windows are different representations.
+- A host-neutral `open_planner` response can use its default timezone. Do not derive a person's local all-day hours from that display response; verify using the timezone-aware plan read instead. A successful opening does not prove an embedded planner was rendered.
