@@ -18,7 +18,7 @@ Verify all saved changes independently with the MCP SDK or web; do not persist p
 
 ## Observed on 24 October 2026
 
-- Official Agent Plugin and MCP JSON schema checks pass; the standalone package contains only reviewed manifests, one skill, documentation, a logo and license. The owning repository's 39 MCP regressions pass.
+- Official Agent Plugin and MCP JSON schema checks pass; the standalone package contains only reviewed manifests, one skill, documentation, a logo and license. The owning repository's 40 MCP regressions pass.
 - Grok Bot 0.75.5: custom remote MCP discovery and fictional natural-language writes/read-back passed for creation, separate checklist rows/toggle, partial removal of exact hours with all-day preservation, agreed Event plus own RSVP, Google Maps place plus vote, and a single-person 600 CZK expense record. A draft URL was rejected as a saved-plan target. No real invitations, bookings or payments.
 - These Grok Bot tests used a custom MCP connection; they did **not** load this package's skill. Prepublication import from a public repository was not available in that individual Grok Bot account. Marketplace approval/installation remains a separate gate.
 - `open_planner` returned data and a working web link, but no embedded interactive planner was visible in Grok Bot. Use the web fallback.
